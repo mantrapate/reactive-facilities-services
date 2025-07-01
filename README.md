@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reactive Facilities Services</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 0;
+      gap: 2rem;
+    }
+    .main-content {
+      flex: 2 1 0;
+      min-width: 0;
+    }
+    .side-images {
+      flex: 1 1 250px;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+    .side-images img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+      object-fit: cover;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    .banner {
+      background: linear-gradient(to right, #003366, #336699);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem 2rem 1rem;
+      margin-bottom: 2rem;
+      border-radius: 0 0 10px 10px;
+    }
+    .services li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .contact {
+      background-color: #e0e0e0;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        gap: 0;
+      }
+      .side-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      .side-images img {
+        max-width: 45vw;
+      }
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 1rem 0;
+      }
+      .main-content, .side-images {
+        width: 100%;
+        max-width: 100%;
+      }
+      .side-images img {
+        max-width: 95vw;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Reactive Facilities Services</h1>
+  <p>Owned by Sunny</p>
+</header>
+
+<section class="banner">
+  <h2>Fast, Reliable Maintenance & Painting</h2>
+  <p>Residential • Commercial • Industrial</p>
+</section>
+
+<div class="container">
+  <div class="main-content">
+    <section>
+      <h2>About Us</h2>
+      <p>At <strong>Reactive Facilities Services</strong>, we respond fast and deliver quality. Whether it's a last-minute repair, preventative maintenance, or a fresh coat of paint, we're the reliable crew you call when you need it done right the first time. Backed by years of experience and a sharp eye for detail, we’ve built trust across homes, schools, and workplaces.</p>
+    </section>
+
+    <section>
+      <h2>Services We Offer</h2>
+      <ul class="services">
+        <li>Reactive & Preventative Maintenance</li>
+        <li>Interior & Exterior Painting</li>
+        <li>Handyman Repairs</li>
+        <li>Graffiti Removal</li>
+        <li>Touch-Ups & End-of-Lease Work</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Why Choose Us</h2>
+      <ul>
+        <li>✅ Fast Turnaround</li>
+        <li>✅ Affordable Pricing</li>
+        <li>✅ Fully Insured</li>
+        <li>✅ Quality Workmanship</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Get in Touch</h2>
+      <p><strong>Call Sunny:</strong> 0430 390 658</p>
+      <p><strong>Email:</strong> reactive9223@gmail.com</p>
+      <p><strong>Location:</strong> 4 Hay Street</p>
+    </section>
+  </div>
+
+  <aside class="side-images">
+    <img src="image1.jpg" alt="Completed tile restoration" />
+    <img src="image2.jpg" alt="Surface preparation in progress" />
+    <img src="image3.jpg" alt="Tile alignment during installation" />
+    <img src="image4.jpg" alt="Final result after tiling" />
+  </aside>
+</div>
+
+<footer>
+  <p>© 2025 Reactive Facilities Services. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
