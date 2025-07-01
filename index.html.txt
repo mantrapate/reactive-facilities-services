@@ -150,9 +150,9 @@
   </div>
 
   <aside class="side-images">
-    <img src="image1" alt="Work in progress" />
-    <img src="image2" alt="Floor transition complete" />
-    <img src="image3" alt="Door detail work" />
+    <img src="image1.jpg" alt="Work in progress" />
+    <img src="image2.jpg" alt="Floor transition complete" />
+    <img src="image3.jpg" alt="Door detail work" />
   </aside>
 </div>
 
